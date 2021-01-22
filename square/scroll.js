@@ -4,15 +4,16 @@ var map = {
     tsize: 512,
     csize: 256,
     layers: [[
-        0,          'CastleTethyr',    0,                 0,                 0,                 0,0,
-        0,          0,                 0,                 0,                 0,                 0,0,
-        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4',0,'Darromar',
-        0,          0,                 0,                 0,                 0,                 0,0
+        //1         2                  3                  4                  5                  6      7
+        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map','0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map','0map',
+        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','0map','Darromar',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map','0map'
     ], [
-        0,  0,  0, 0,   0,0,0,
-        0,  0,  0, 0,   0,0,0,
-        0,  0,  0, 0,   0,0,0,
-        0,  0,  0, 0,   0,0,0
+        0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0
     ]],
     getTile: function (layer, col, row) {
         return this.layers[layer][row * map.cols + col];
@@ -106,7 +107,7 @@ Game._drawLayer = function (layer) {
 
 Game.render = function () {
     // draw map background layer
-    this._drawLayer(0);
-    // draw map top layer
     this._drawLayer(1);
+    // draw map top layer
+    this._drawLayer(0);
 };
