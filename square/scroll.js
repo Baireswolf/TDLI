@@ -1,15 +1,19 @@
 var map = {
     cols: 7,
-    rows: 4,
+    rows: 6,
     tsize: 512,
     csize: 256,
     layers: [[
-        //1         2                  3                  4                  5                  6      7
-        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map','0map',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map','0map',
-        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','0map','Darromar',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map','0map'
+        //1         2                  3                  4                  5                  6                 7
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',        
+        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           '0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',
+        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map'        
     ], [
+        0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,
