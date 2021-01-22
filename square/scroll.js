@@ -1,23 +1,23 @@
 var map = {
-    cols: 7,
+    cols: 10,
     rows: 6,
     tsize: 512,
     csize: 256,
     layers: [[
-        //1         2                  3                  4                  5                  6                 7
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',        
-        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           '0map',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',
-        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map'        
+        //1         2                  3                  4                  5                  6                 7                  8                 9                  10
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map'
     ], [
-        0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0
+        0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0
     ]],
     getTile: function (layer, col, row) {
         return this.layers[layer][row * map.cols + col];

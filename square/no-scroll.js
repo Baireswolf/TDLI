@@ -1,13 +1,16 @@
 var map = {
-    cols: 4,
-    rows: 4,
+    cols: 10,
+    rows: 6,
     tsize: 512,
-    tsize: 128,
+    csize: 100,
     tiles: [
-        0,          0,  0,          0,
-        0,          0,  0,          0,  
-        'Saharkhan',0,  'Darromar', 0,
-        0,          0,  0,          0
+        //1         2                  3                  4                  5                  6                 7                  8                 9                  10
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',
+        'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',
+        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map'
     ],
     getTile: function (col, row) {
         return this.tiles[row * map.cols + col];
@@ -47,10 +50,10 @@ Game.render = function () {
                     0, // source y
                     map.tsize, // source width
                     map.tsize, // source height
-                    c * map.tsize,  // target x
-                    r * map.tsize, // target y
-                    map.tsize, // target width
-                    map.tsize // target height
+                    c * map.csize,  // target x
+                    r * map.csize, // target y
+                    map.csize, // target width
+                    map.csize // target height
                 );
             }
         }
