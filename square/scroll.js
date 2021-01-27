@@ -7,7 +7,7 @@ var map = {
         //1         2                  3                  4                  5                  6                 7                  8                 9                  10              11     12     13         14
         '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map','0map','0map',    '0map',
         '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map','0map','0map',    '0map',
-        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map','0map','0map',    '0map',
+        '0map',     'CastleTethyrS',   '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map','0map','0map',    '0map',
         'Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2','0map','0map','0map',    '0map',
         '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',         '0map','0map','0map',    '0map',
         '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map',         '0map','0map','Darromar','0map',
