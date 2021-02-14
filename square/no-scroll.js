@@ -1,6 +1,6 @@
 var map = {
     cols: 21,
-    rows: 10,
+    rows: 11,
     tsize: 512,
     csize: 100,
     tiles: [
@@ -14,7 +14,8 @@ var map = {
         'SaharkhanCRS','Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2','RvrShr_IthalRd','DarroFarmNW',   'DarroFarmN','DarroFarmNE', 'RvrShrHillS', 'RvrShrHillSE','0map',        '0map',        '0map',        '0map', 
         '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',         'RvrShr_IthFrmW','RvrShr_IthFrmE','Darromar',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
         '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map',         '0map',          '0map',          'ClovisFn',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map'
+        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          'ClovisFs',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
+        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map'        
     ],
     getTile: function (col, row) {
         return this.tiles[row * map.cols + col];
