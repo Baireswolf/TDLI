@@ -8,16 +8,18 @@ canvas {
 }
 
 a, a:hover, a:visited {
-    color: #000;
     text-decoration: none;
 }
 
 a {
-    border-bottom: 2px solid #ff3831b2;
+    color: #000;
+    border-bottom: 2px solid #ebcc20;
 }
 
 a:hover {
-    background:#f8837f;
+    /*background-color: black;*/
+    color: #4CAF50;
+    border-bottom: 2px solid black;
 }
 
 .main-wrapper {
@@ -42,12 +44,20 @@ a:hover {
 
 .main-header h1 {
     margin: 0;
-    background: #ff3831b2;
-    padding: 0.5em 1em;
+    background: #4CAF50;
+    padding: 0.1em 1em;
 }
 
 .main-header a {
-    color: #000;
+    color: black;
+    border-bottom: 3px solid black;
+    text-decoration: none;
+}
+    
+.main-header a:hover {
+    color: #4CAF50;
+    border-bottom: 3px solid #4caf50;    
+    background-color: black;
     text-decoration: none;
 }
 
@@ -61,4 +71,36 @@ li, p {
 
 li {
     margin: 0.5em 0;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 2px solid #4caf50;    
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-bottom: 2px solid black;    
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }

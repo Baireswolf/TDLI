@@ -1,35 +1,35 @@
 var map = {
-    cols: 21,
+    cols: 26,
     rows: 11,
     tsize: 512,
     csize: 256,
     layers: [[
-        //1            2           3                  4                  5                  6                  7                 8                  9                 10                 11              12               13               14           15             16             17             18             19             20             21 
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        'TorArcanaFw', 'TorArcana',   'TorArcanaFe', '0map',     
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        'TorArcanaFsw','TorArcanaFs', 'TorArcanaFse','0map',   
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         'GrannoxFw',     'GrannoxFe',     'Lhestyn',   'FreelmanseFw','FreelmanseFe','0map',        'VarythPlainW','VarythPlainC','0map',        '0map',
-        '0map',        '0map',     'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           'Hostim',          '0map',           '0map',            '0map',         '0map',          'LhestynFsw',    'LhestynFs', 'LhestynFse',  'RvrShrHillN', 'RvrShrHillNE','VarythHillNW','0map',        '0map',        '0map', 
-        '0map',        '0map',     'CastleTethyrS',   '0map',            '0map',            '0map',            '0map',           'HostimRD',        '0map',           '0map',            '0map',         'QonsirFw',      'QonsirFe',      'LhestynRd', 'RvrShrHillW', 'RvrShrHill',  'StOstus',     'VarythHillSW','0map',        '0map',        '0map', 
-        'SaharkhanCRS','Saharkhan','Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2','RvrShr_IthalRd','DarroFarmNW',   'DarroFarmN','DarroFarmNE', 'RvrShrHillS', 'RvrShrHillSE','0map',        '0map',        '0map',        '0map', 
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',         'RvrShr_IthFrmW','RvrShr_IthFrmE','Darromar',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map',         '0map',          '0map',          'ClovisFn',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          'ClovisFs',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
-        '0map',        '0map',     '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map'        
+        //1              2                3      4      5      6              7                8                  9                  10                 11                 12                13                 14                15                 16              17               18               19           20             21             22             23             24             25             26                           
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        'TorArcanaFw', 'TorArcana',   'TorArcanaFe', '0map',     
+        't_zazesspur_nw','t_zazesspur_ne','0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        'TorArcanaFsw','TorArcanaFs', 'TorArcanaFse','0map',   
+        't_zazesspur_sw','t_zazesspur_se','0map','0map','0map','0map',        'CastleTethyrNW','CastleTethyrN',   'CastleTethyrNE',  '0map',            '0map',            'IthmonSulW',     'HostimQ',         'IthmonSulE',     'IthmonSulE1',     'IthmonSulE2',  'GrannoxFw',     'GrannoxFe',     'Lhestyn',   'FreelmanseFw','FreelmanseFe','0map',        'VarythPlainW','VarythPlainC','0map',        '0map',
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          'CastleTethyr',    '0map',            '0map',            '0map',            '0map',           'Hostim',          '0map',           '0map',            '0map',         '0map',          'LhestynFsw',    'LhestynFs', 'LhestynFse',  'RvrShrHillN', 'RvrShrHillNE','VarythHillNW','0map',        '0map',        '0map', 
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          'CastleTethyrS',   '0map',            '0map',            '0map',            '0map',           'HostimRD',        '0map',           '0map',            '0map',         'QonsirFw',      'QonsirFe',      'LhestynRd', 'RvrShrHillW', 'RvrShrHill',  'StOstus',     'VarythHillSW','0map',        '0map',        '0map', 
+        '0map',          '0map',          '0map','0map','0map','SaharkhanCRS','Saharkhan',     'Barshyr_IthalRd1','Barshyr_IthalRd2','Barshyr_IthalRd3','Barshyr_IthalRd4','Ithmon_WCatFrm1','Ithmon_WCatFrm2', 'Ithmon_LorCrsRd','Ithmon_IthRd1',   'Ithmon_IthRd2','RvrShr_IthalRd','DarroFarmNW',   'DarroFarmN','DarroFarmNE', 'RvrShrHillS', 'RvrShrHillSE','0map',        '0map',        '0map',        '0map', 
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',         'RvrShr_IthFrmW','RvrShr_IthFrmE','Darromar',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map',         '0map',          'ClovisFnw',     'ClovisFn',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          'ClovisFs',  '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
+        '0map',          '0map',          '0map','0map','0map','0map',        '0map',          '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',          '0map',      '0map',        '0map',        '0map',        '0map',        '0map',        '0map',        '0map'        
     ], [
       //                  10                  20  
-      //1 2 3 4 5 6 7 8 9   1 2 3 4 5 6 7 8 9   1
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,              
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+      //1 2 3 4 5 6 7 8 9   1 2 3 4 5 6 7 8 9   1 2 3 4 5 6
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     ]],
     getTile: function (layer, col, row) {
         return this.layers[layer][row * map.cols + col];
