@@ -1,3 +1,4 @@
+/*
 var map = {
     cols: 26,
     rows: 11,
@@ -34,7 +35,7 @@ var map = {
     getTile: function (layer, col, row) {
         return this.layers[layer][row * map.cols + col];
     }
-};
+};*/
 
 function Camera(map, width, height) {
     this.x = 0;

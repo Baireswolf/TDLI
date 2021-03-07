@@ -13,7 +13,7 @@ a, a:hover, a:visited {
 
 a {
     color: #000;
-    border-bottom: 2px solid #ebcc20;
+    border-bottom: 2px solid #4CAF50;
 }
 
 a:hover {
@@ -23,10 +23,14 @@ a:hover {
 }
 
 .main-wrapper {
-    width: 512px;
+    margin-left: 165px; /* Same as the width of the sidebar */
+    margin-top: -200px;
+    padding: 0px 10px;
+    width: 1024px;
+    /*
     padding-left: 1em;
     padding-right: 1em;
-    margin: 0 auto;
+    margin: 0 auto;*/
 }
 
 .main-header, .main-footer {
@@ -70,6 +74,7 @@ li, p {
 }
 
 li {
+    justify-items: left;
     margin: 0.5em 0;
 }
 
@@ -103,4 +108,80 @@ li {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+
+
+
+
+
+
+/* The sidebar menu */
+.sidenav {
+    /*height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    /*position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 20%; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav a.active {
+    background-color: #818181; /* Black */
+    color: #111;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
+
+  /*SCREENSHOT GALLERY*/
+
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
 }

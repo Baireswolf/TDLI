@@ -12,18 +12,31 @@
 
 <header class="main-header">
     <h1><a href="../index.html">Lands of Intrigue</a></h1>
-    <p>Full map</p>
 </header>
 
+<div class="topnav">
+    <a href="../index.html">Home</a>
+    <a class="active" href="index.html">Maps</a>
+    <a href="../screenshots/index.html">Screenshots</a>
+    <a href="#about">About</a>
+</div>
+
+<!-- Side navigation -->
+<div class="sidenav">
+    <a class="active" href="no-scroll.html">Low-Res Full Size Map </a>
+    <a href="scroll.html">Hi-Res Scrolling Map</a>
+</div>
+
 <div class="main-wrapper">
-    <div id='d1' style="position:relative; top:0px; left:-256px; z-index:1"> 
+    <div id='d1' style="position:static; top:30%; left:auto; z-index:1"> 
         <canvas id="demo" width="2600" height="1100"></canvas>
     </div>
-
+<!--
     <footer class="main-footer">
         <p><a href="scroll.html">Hi-Res Scrolling Map</a></p>
         <p>Back to <a href="../index.html" target="_top">Main</a>.</p>
     </footer>
+-->    
 </div><!-- main wrapper -->
 
 </body>

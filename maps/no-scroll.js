@@ -1,3 +1,4 @@
+/*
 var map = {
     cols: 26,
     rows: 11,
@@ -20,11 +21,11 @@ var map = {
     getTile: function (col, row) {
         return this.tiles[row * map.cols + col];
     }
-};
+};*/
 Game.load = function () {
     for (var c = 0; c < map.cols; c++) {
         for (var r = 0; r < map.rows; r++) {
-            var imgName = map.getTile(c, r);
+            var imgName = map.getTile(0,c, r);
             if (imgName !== 0) { // 0 => empty tile
                 this.imgAtlas = [
                     Loader.loadImage(imgName, '../assets/'+imgName+'.png'),
@@ -45,7 +46,7 @@ Game.update = function (delta) {
 Game.render = function () {
     for (var c = 0; c < map.cols; c++) {
         for (var r = 0; r < map.rows; r++) {
-            var tile = map.getTile(c, r);
+            var tile = map.getTile(0,c, r);
             if (tile !== 0) { // 0 => empty tile
                 this.tileAtlas = Loader.getImage(tile);
                 this.ctx.drawImage(
@@ -55,10 +56,10 @@ Game.render = function () {
                     0, // source y
                     map.tsize, // source width
                     map.tsize, // source height
-                    c * map.csize,  // target x
-                    r * map.csize, // target y
-                    map.csize, // target width
-                    map.csize // target height
+                    c * map.csize_noscr,  // target x
+                    r * map.csize_noscr, // target y
+                    map.csize_noscr, // target width
+                    map.csize_noscr // target height
                 );
             }
         }
