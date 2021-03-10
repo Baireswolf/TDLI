@@ -76,7 +76,26 @@ Game.init = function () {
         [Keyboard.LEFT, Keyboard.RIGHT, Keyboard.UP, Keyboard.DOWN]);
     //this.tileAtlas = Loader.getImage('tiles');
     this.camera = new Camera(map, 1024, 512);
+
+        
+    var el = document.getElementById("canvas");
+    el.addEventListener("touchstart", handleStart, false);
+    //el.addEventListener("touchend", handleEnd, false);
+    //el.addEventListener("touchcancel", handleCancel, false);
+    //el.addEventListener("touchmove", handleMove, false);
+
 };
+
+
+function touchHandler(e) {
+    if(e.touches) {
+        playerX = e.touches[0].pageX - canvas.offsetLeft - playerWidth / 2;
+        playerY = e.touches[0].pageY - canvas.offsetTop - playerHeight / 2;
+        output.textContent = `Touch:  x: ${playerX}, y: ${playerY}`;
+        e.preventDefault();
+    }
+}
+
 
 Game.update = function (delta) {
     // handle camera movement with arrow keys
@@ -86,6 +105,7 @@ Game.update = function (delta) {
     if (Keyboard.isDown(Keyboard.RIGHT)) { dirx = 1; }
     if (Keyboard.isDown(Keyboard.UP)) { diry = -1; }
     if (Keyboard.isDown(Keyboard.DOWN)) { diry = 1; }
+ 
 
     this.camera.move(delta, dirx, diry);
 };
