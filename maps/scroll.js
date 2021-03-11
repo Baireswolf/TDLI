@@ -74,9 +74,11 @@ Game.load = function () {
 Game.init = function () {
     Keyboard.listenForEvents(
         [Keyboard.LEFT, Keyboard.RIGHT, Keyboard.UP, Keyboard.DOWN]);
+
     //this.tileAtlas = Loader.getImage('tiles');
     this.camera = new Camera(map, 1024, 512);
 };
+
 
 
 Game.update = function (delta) {
