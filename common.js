@@ -45,6 +45,11 @@ var map = {
     }
 };
 
+window.getElementById('buttonup').onclick = function changeColor() {
+   window.getElementById('buttonup').style = "background: red";
+
+}
+
 Loader.loadImage = function (key, src) {
     var img = new Image();
 
