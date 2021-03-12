@@ -27,10 +27,48 @@ a:hover {
     margin-top: -200px;
     padding: 0px 10px;
     width: 1024px;
+    height: 512px;
     /*
     padding-left: 1em;
     padding-right: 1em;
     margin: 0 auto;*/
+}
+
+.mapup {
+    position: absolute;
+    width: 896px;
+    height: 64px;
+    z-index: 2;
+    top: 198px;
+    left: 239px;
+   background: none;
+}
+.mapdown {
+    position: absolute;
+    width: 896px;
+    height: 64px;
+    z-index: 2;
+    top: 646px;
+    left: 239px;
+   background: none;
+}
+.mapleft {
+    position: absolute;
+    width: 64px;
+    height: 384px;
+    z-index: 2;
+    top: 262px;
+    left: 176px;
+   background: none;
+}
+.mapright {
+    position: absolute;
+    width: 64px;
+    height: 384px;
+    z-index: 2;
+    top: 262px;
+    left: 1135px;
+   background: none;
 }
 
 .main-header, .main-footer {

@@ -37,6 +37,8 @@ var map = {
     }
 };*/
 
+
+
 function Camera(map, width, height) {
     this.x = 0;
     this.y = 0;
@@ -71,10 +73,12 @@ Game.load = function () {
     return this.imgAtlas;
 };
 
+
 Game.init = function () {
     Keyboard.listenForEvents(
-        [Keyboard.LEFT, Keyboard.RIGHT, Keyboard.UP, Keyboard.DOWN]);
-
+        [Keyboard.LEFT, Keyboard.RIGHT, Keyboard.UP, Keyboard.DOWN]
+    );
+    
     //this.tileAtlas = Loader.getImage('tiles');
     this.camera = new Camera(map, 1024, 512);
 };
@@ -85,6 +89,7 @@ Game.update = function (delta) {
     // handle camera movement with arrow keys
     var dirx = 0;
     var diry = 0;
+    
     if (Keyboard.isDown(Keyboard.LEFT)) { dirx = -1; }
     if (Keyboard.isDown(Keyboard.RIGHT)) { dirx = 1; }
     if (Keyboard.isDown(Keyboard.UP)) { diry = -1; }
