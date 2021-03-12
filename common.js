@@ -45,8 +45,8 @@ var map = {
     }
 };
 
-window.getElementById('buttonup').onclick = function changeColor() {
-   window.getElementById('buttonup').style = "background: red";
+window.getElementById('mapup').onclick = function changeColor() {
+   window.getElementById('mapup').style = "background: red";
 
 }
 
