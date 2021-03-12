@@ -45,10 +45,9 @@ var map = {
     }
 };
 
-window.getElementById('mapup').onclick = function changeColor() {
-   window.getElementById('mapup').style = "background: red";
-
-}
+document.getElementById('mapup').onclick = function changeColor() {
+   document.getElementById('mapup').style = "background: red";
+};
 
 Loader.loadImage = function (key, src) {
     var img = new Image();
