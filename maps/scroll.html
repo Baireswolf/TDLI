@@ -34,8 +34,34 @@
         <canvas id="demo" width="1024" height="512"></canvas>
         <script>
             function mapmove(mapx) {
-                document.getElementById(mapx).style.background='black';
-            } 
+                //document.getElementById(mapx).style.background='black';
+                //var e = document.createEvent('HTMLEvents');
+                //e.initEvent({'keydown'}, false, false);
+                //window.dispatchEvent(e);
+                if (mapx == 'mapup') {
+                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 38}));
+                    setTimeout(function(){
+                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 38}));
+                    }, 500);
+                } else if (mapx == 'mapdown') {
+                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 40}));
+                    setTimeout(function(){
+                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 40}));
+                    }, 500);
+                } else if (mapx == 'mapleft') {
+                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 37}));
+                    setTimeout(function(){
+                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 37}));
+                    }, 500);
+                } else if (mapx == 'mapright') {
+                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 39}));
+                    setTimeout(function(){
+                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 39}));
+                    }, 500);
+                };
+
+                //window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 40}));
+            }; 
         </script>
         <div class="mapup" id="mapup" onclick="mapmove('mapup')"></div>
         <div class="mapdown" id="mapdown" onclick="mapmove('mapdown')"></div>></div>
