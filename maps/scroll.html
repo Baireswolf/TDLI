@@ -32,10 +32,15 @@
     <p>Scrolling map<br>Use arrow keys to move</p>
     <div id='d1' style="position:static; top:30%; left:auto; z-index:1; "> 
         <canvas id="demo" width="1024" height="512"></canvas>
-        <div class="mapup"></div>
-        <div class="mapdown"></div>
-        <div class="mapleft"></div>
-        <div class="mapright"></div>
+        <script>
+            function mapmove(mapx) {
+                document.getElementById(mapx).style.background='black';
+            }
+        </script>
+        <div class="mapup" id="mapup" onclick="mapmove('mapup')"></div>
+        <div class="mapdown" id="mapdown" onclick="mapmove('mapdown')"></div>></div>
+        <div class="mapleft" id="mapleft" onclick="mapmove('mapleft')"></div>
+        <div class="mapright" id="mapright" onclick="mapmove('mapright')"></div>
     </div>
     
 <!--
