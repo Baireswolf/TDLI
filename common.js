@@ -43,7 +43,7 @@ var map = {
     getTile: function (layer, col, row) {
         return this.layers[layer][row * map.cols + col];
     }
-};
+}; 
 /*
 document.getElementById('mapup').onclick = function changeColor() {
    document.getElementById('mapup').style = "background: red";
