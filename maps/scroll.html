@@ -29,7 +29,7 @@
 </div>
 
 <div class="main-wrapper">
-    <p>Scrolling map<br>Use arrow keys to move</p>
+    <p>Use arrow keys or click on the map limits to scroll.</p>
     <div id='d1' style="position:static; top:30%; left:auto; z-index:1; "> 
         <canvas id="demo" width="1024" height="512"></canvas>
         <script>
@@ -38,6 +38,11 @@
                 //var e = document.createEvent('HTMLEvents');
                 //e.initEvent({'keydown'}, false, false);
                 //window.dispatchEvent(e);
+                window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: mapx}));
+                setTimeout(function(){
+                    window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: mapx}));
+                }, 400);
+                /*
                 if (mapx == 'mapup') {
                     window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 38}));
                     setTimeout(function(){
@@ -59,14 +64,14 @@
                         window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 39}));
                     }, 500);
                 };
-
+                */
                 //window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 40}));
             }; 
         </script>
-        <div class="mapup" id="mapup" onclick="mapmove('mapup')"></div>
-        <div class="mapdown" id="mapdown" onclick="mapmove('mapdown')"></div>></div>
-        <div class="mapleft" id="mapleft" onclick="mapmove('mapleft')"></div>
-        <div class="mapright" id="mapright" onclick="mapmove('mapright')"></div>
+        <div class="mapup" id="mapup" onclick="mapmove(38)"></div>
+        <div class="mapdown" id="mapdown" onclick="mapmove(40)"></div>
+        <div class="mapleft" id="mapleft" onclick="mapmove(37)"></div>
+        <div class="mapright" id="mapright" onclick="mapmove(39)"></div>
     </div>
     
 <!--
