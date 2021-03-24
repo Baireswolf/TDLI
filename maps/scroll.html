@@ -19,7 +19,7 @@
     <a href="../index.html">Home</a>
     <a class="active" href="index.html">Maps</a>
     <a href="../screenshots/index.html">Screenshots</a>
-    <a href="#about">About</a>
+    <a href="../downloads/index.html">Downloads</a>
 </div>
 
 <!-- Side navigation -->
@@ -30,42 +30,14 @@
 
 <div class="main-wrapper">
     <p>Use arrow keys or click on the map limits to scroll.</p>
-    <div id='d1' style="position:static; top:30%; left:auto; z-index:1; "> 
+    <div id='d1' style="position:relative; top:0%; left:auto; z-index:0; "> 
         <canvas id="demo" width="1024" height="512"></canvas>
         <script>
             function mapmove(mapx) {
-                //document.getElementById(mapx).style.background='black';
-                //var e = document.createEvent('HTMLEvents');
-                //e.initEvent({'keydown'}, false, false);
-                //window.dispatchEvent(e);
                 window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: mapx}));
                 setTimeout(function(){
                     window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: mapx}));
                 }, 400);
-                /*
-                if (mapx == 'mapup') {
-                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 38}));
-                    setTimeout(function(){
-                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 38}));
-                    }, 500);
-                } else if (mapx == 'mapdown') {
-                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 40}));
-                    setTimeout(function(){
-                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 40}));
-                    }, 500);
-                } else if (mapx == 'mapleft') {
-                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 37}));
-                    setTimeout(function(){
-                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 37}));
-                    }, 500);
-                } else if (mapx == 'mapright') {
-                    window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 39}));
-                    setTimeout(function(){
-                        window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 39}));
-                    }, 500);
-                };
-                */
-                //window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 40}));
             }; 
         </script>
         <div class="mapup" id="mapup" onclick="mapmove(38)"></div>

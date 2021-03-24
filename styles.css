@@ -23,8 +23,9 @@ a:hover {
 }
 
 .main-wrapper {
+    
     margin-left: 165px; /* Same as the width of the sidebar */
-    margin-top: -200px;
+    margin-top: -150px;
     padding: 0px 10px;
     width: 1024px;
     height: 512px;
@@ -38,36 +39,36 @@ a:hover {
     position: absolute;
     width: 896px;
     height: 64px;
-    z-index: 2;
-    top: 198px;
-    left: 239px;
+    z-index: 1;
+    top: 0px;
+    left: 64px;
    background: none;
 }
 .mapdown {
     position: absolute;
     width: 896px;
     height: 64px;
-    z-index: 2;
-    top: 646px;
-    left: 239px;
+    z-index: 1;
+    top: 448px;
+    left: 64px;
    background: none;
 }
 .mapleft {
     position: absolute;
     width: 64px;
     height: 384px;
-    z-index: 2;
-    top: 262px;
-    left: 176px;
+    z-index: 1;
+    top: 64px;
+    left: 0px;
    background: none;
 }
 .mapright {
     position: absolute;
     width: 64px;
     height: 384px;
-    z-index: 2;
-    top: 262px;
-    left: 1135px;
+    z-index: 1;
+    top: 64px;
+    right: 0px;
    background: none;
 }
 
