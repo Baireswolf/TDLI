@@ -8,7 +8,7 @@ var Loader = {
 
 var map = {
     cols: 26,
-    rows: 11,
+    rows: 13,
     tsize: 512,
     csize: 256,
     csize_noscr: 100,
@@ -24,11 +24,15 @@ var map = {
         '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmNW','Ithmon_LorFarmN','Ithmon_LorFarmNE','0map',         'RvrShr_IthFrmW','RvrShr_IthFrmE', 't_darromar',      '0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
         '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           'Ithmon_LorFarmW', 'Loranse',        'Ithmon_LorFarmE', '0map',         '0map',          't_clov_fld_nw',  't_clov_fld_itr_n','0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map', 
         '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',           't_clov_fld_itr_s','0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
-        '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',           '0map',            '0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map'        
+        '0map',          '0map',          '0map',        '0map',        '0map',        't_krennasar',     '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',           '0map',            '0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
+        '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',           '0map',            '0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map',
+        '0map',          '0map',          '0map',        '0map',        '0map',        '0map',            '0map',           '0map',            '0map',            '0map',            '0map',            '0map',           '0map',            '0map',           '0map',            '0map',         '0map',          '0map',           '0map',            '0map',           '0map',        '0map',        '0map',        '0map',        '0map',        '0map'                        
     ], [
       //                  10                  20  
       //1 2 3 4 5 6 7 8 9   1 2 3 4 5 6 7 8 9   1 2 3 4 5 6
         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,      
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
