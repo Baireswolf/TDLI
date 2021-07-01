@@ -201,6 +201,18 @@ li {
 /*------SCREENSHOTS------*/
 /*-----------------------*/
 /*-----------------------*/
+.main-images {
+    margin-left: 165px; /* Same as the width of the sidebar */
+    margin-top: -275px;
+    padding: 0px 10px;
+    width: 1024px;
+    height: 512px;
+    /*
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto;*/
+}
+
 .thumbnails img {
 	height: 80px;
 	border: 4px solid #555;
