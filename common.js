@@ -7,8 +7,8 @@ var Loader = {
 };
 
 var map = {
-    cols: 30,
-    rows: 17,
+    cols: 35,
+    rows: 23,
     tsize: 512,
     csize: 256,
     csize_noscr: 100,
