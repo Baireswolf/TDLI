@@ -1,8 +1,10 @@
 TNO03 - Crusade by PC Maniac
 https://neverwintervault.org/project/nwn1/hakpak/tileset/tno03-tileset-crusade
+DONE
 
 TNO90 - Castle Rual Exterior 2 by Pstemarie
 https://neverwintervault.org/project/nwnee/hakpak/pstemaries-custom-content
+DONE
 
 Merchant Signs - by The Amethyst Dragon
 https://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-merchant-signs
