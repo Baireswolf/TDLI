@@ -11,9 +11,11 @@ https://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragon
 
 TNO Features as Placeables - by Iskadrow
 https://neverwintervault.org/project/nwn1/hakpak/tno-features-placeables
+- Added to placeable.2da
 
-CCC 2015-11 - Mage Tower
+CCC 2015-11 - Mage Tower 
 https://neverwintervault.org/project/nwn1/hakpak/original-hakpak/custom-content-challenge-november-2015-wizards-tower
+- Added Mage Towers by PHoD
 
 PHoD
 Desert Dwellings
