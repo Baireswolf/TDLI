@@ -1,30 +1,4 @@
 
-DECORATION
-12791 "Witcher: Decoration 1"                                                ****     plc_wt792           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12792 "Witcher: Decoration 2"                                                ****     plc_wt793           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12793 "Witcher: Decoration 3"                                                ****     plc_wt794           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12794 "Witcher: Decoration 4"                                                ****     plc_wt795           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12795 "Witcher: Decoration 5"                                                ****     plc_wt796           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12796 "Witcher: Decoration 6"                                                ****     plc_wt797           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12797 "Witcher: Decoration 7"                                                ****     plc_wt798           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12798 "Witcher: Decoration 8"                                                ****     plc_wt799           ****       ****         ****         ****         33           1          0       ****           ****          0      
-12810 "Witcher: Coat of Arms"                                                ****     plc_wt811           ****       ****         ****         ****         33           1          0       ****           ****          1      
-12772 "Witcher: Shield, stone"                                               ****     plc_wt773           ****       ****         ****         ****         26           1          0       ****           ****          1      
-
-FURNITURE
-12784 "Witcher: Bed 7"                                                       ****     plc_wt785           ****       ****         ****         ****         13           1          0       ****           ****          1      
-12725 "Witcher: Bookshelf 5"                                                 ****     plc_wt726           ****       ****         ****         ****         16           1          0       ****           ****          1      
-12728 "Witcher: Fireplace 4"                                                 ****     plc_wt729           ****       ****         ****         ****         4            1          0       ****           ****          1      
-12730 "Witcher: Fireplace 5"                                                 ****     plc_wt731           ****       ****         ****         ****         4            1          0       ****           ****          1      
-12783 "Witcher: Shelf 2"                                                     ****     plc_wt784           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12775 "Witcher: Sideboard 2"                                                 ****     plc_wt776           ****       ****         ****         ****         14           1          0       ****           ****          1      
-12779 "Witcher: Bench, stone"                                                ****     plc_wt780           ****       ****         ****         ****         4            1          0       ****           ****          1      
-12780 "Witcher: Curtain 1"                                                   ****     plc_wt781           ****       ****         ****         ****         23           1          0       ****           ****          1      
-12781 "Witcher: Curtain 2"                                                   ****     plc_wt782           ****       ****         ****         ****         23           1          0       ****           ****          1      
-12799 "Witcher: Shelves"                                                     ****     plc_wt800           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12801 "Witcher: Cupboard 3"                                                  ****     plc_wt802           ****       ****         ****         ****         14           1          0       ****           ****          1      
-12943 "Witcher: Washtub 2"                                                   ****     plc_wt943           ****       ****         ****         ****         0            1          0       ****           ****          1      
-
 GRAVEYARD
 12803 "Witcher: Grave 2"                                                     ****     plc_wt804           ****       ****         ****         ****         33           1          0       ****           ****          1      
 12804 "Witcher: Grave 3"                                                     ****     plc_wt805           ****       ****         ****         ****         33           1          0       ****           ****          1      
@@ -102,11 +76,6 @@ JOBS - BLACKSMITH
 12912 "Witcher: Staff 6"                                                     ****     plc_wt913           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12913 "Witcher: Staff 7"                                                     ****     plc_wt914           ****       ****         ****         ****         0            1          0       ****           ****          1      
 
-JOBS - FISHING
-12769 "Witcher: Nets 1"                                                      ****     plc_wt770           ****       ****         ****         ****         23           1          0       ****           ****          1      
-12785 "Witcher: Nets 2"                                                      ****     plc_wt786           ****       ****         ****         ****         23           1          0       ****           ****          1      
-12786 "Witcher: Nets 3"                                                      ****     plc_wt787           ****       ****         ****         ****         23           1          0       ****           ****          1      
-
 JOBS _ MAGIC & HERBS
 12790 "Witcher: Herbs, dried"                                                ****     plc_wt791           ****       ****         ****         ****         23           1          0       ****           ****          1      
 12838 "Witcher: Ingredient"                                                  ****     plc_wt839           ****       ****         ****         ****         0            1          0       ****           ****          1      
@@ -136,18 +105,14 @@ JOBS - POTION
 12879 "Witcher: Potion 21"                                                   ****     plc_wt880           ****       ****         ****         ****         21           1          0       ****           ****          1      
 12880 "Witcher: Potion 22"                                                   ****     plc_wt881           ****       ****         ****         ****         21           1          0       ****           ****          1      
 
-JOBS - WOOD
-12747 "Witcher: Wood stack 1"                                                ****     plc_wt748           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12748 "Witcher: Wood stack 2"                                                ****     plc_wt749           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12749 "Witcher: Wood stack 3"                                                ****     plc_wt750           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12750 "Witcher: Wood stack 4"                                                ****     plc_wt751           ****       ****         ****         ****         0            1          0       ****           ****          1      
+
 
 NATURE
 12668 "Witcher: Dandelion 1"                                                 ****     plc_wt669           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12683 "Witcher: Dandelion 2"                                                 ****     plc_wt684           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12837 "Witcher: Flower 8"                                                    ****     plc_wt838           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12660 "Witcher: Ferns 2"                                                     ****     plc_wt661           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12661 "Witcher: Ferns 3"                                                     ****     plc_wt662           ****       ****         ****         ****         0            1          0       ****           ****          1      
+12837 "Witcher: Flower 8"                                                    ****     plc_wt838           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12666 "Witcher: Grass 1"                                                     ****     plc_wt667           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12669 "Witcher: Grass 2"                                                     ****     plc_wt670           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12670 "Witcher: Grass 3"                                                     ****     plc_wt671           ****       ****         ****         ****         0            1          0       ****           ****          1      
@@ -185,12 +150,12 @@ NATURE
 12682 "Witcher: Plant 8"                                                     ****     plc_wt683           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12704 "Witcher: Plant 9"                                                     ****     plc_wt705           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12712 "Witcher: Plants and rocks 2"                                          ****     plc_wt713           ****       ****         ****         ****         19           1          0       ****           ****          1      
-12756 "Witcher: Roses, rambling"                                             ****     plc_wt757           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12705 "Witcher: Rock 1"                                                      ****     plc_wt706           ****       ****         ****         ****         25           1          0       ****           ****          1      
 12706 "Witcher: Rock 2"                                                      ****     plc_wt707           ****       ****         ****         ****         25           1          0       ****           ****          1      
 12707 "Witcher: Rock 3"                                                      ****     plc_wt708           ****       ****         ****         ****         25           1          0       ****           ****          1      
 12708 "Witcher: Rock 4"                                                      ****     plc_wt709           ****       ****         ****         ****         25           1          0       ****           ****          1      
 12727 "Witcher: Rocks 4"                                                     ****     plc_wt728           ****       ****         ****         ****         25           1          0       ****           ****          1      
+12756 "Witcher: Roses, rambling"                                             ****     plc_wt757           ****       ****         ****         ****         0            1          0       ****           ****          1      
 12713 "Witcher: Stones 1"                                                    ****     plc_wt714           ****       ****         ****         ****         19           1          0       ****           ****          1      
 12714 "Witcher: Stones 2"                                                    ****     plc_wt715           ****       ****         ****         ****         19           1          0       ****           ****          1      
 12716 "Witcher: Stones 3"                                                    ****     plc_wt717           ****       ****         ****         ****         19           1          0       ****           ****          1      
@@ -245,7 +210,6 @@ TROPHIES
 12934 "Witcher: Trophy 11"                                                   ****     plc_wt934           ****       ****         ****         ****         33           1          0       ****           ****          1      
 12839 "Witcher: Head, severed"                                               ****     plc_wt840           ****       ****         ****         ****         33           1          0       ****           ****          1      
 
-
 12698 "Witcher: Monster feces 1"                                             ****     plc_wt699           ****       ****         ****         ****         33           1          0       ****           ****          1      
 12699 "Witcher: Monster feces 2"                                             ****     plc_wt700           ****       ****         ****         ****         33           1          0       ****           ****          1      
 12700 "Witcher: Monster feces 3"                                             ****     plc_wt701           ****       ****         ****         ****         33           1          0       ****           ****          1      
@@ -264,10 +228,6 @@ TROPHIES
 12724 "Witcher: Broken pot 4"                                                ****     plc_wt725           ****       ****         ****         ****         19           1          0       ****           ****          1      
 12696 "Witcher: Debris 6"                                                    ****     plc_wt697           ****       ****         ****         ****         18           1          0       ****           ****          1      
 12697 "Witcher: Debris 7"                                                    ****     plc_wt698           ****       ****         ****         ****         18           1          0       ****           ****          1      
-
-12746 "Witcher: Stockade 1"                                                  ****     plc_wt747           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12765 "Witcher: Stockade 2"                                                  ****     plc_wt766           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12774 "Witcher: Cage, empty"                                                 ****     plc_wt775           ****       ****         ****         ****         27           1          0       ****           ****          1      
 
 12767 "Witcher: Shipwreck"                                                   ****     plc_wt768           ****       ****         ****         ****         2            1          0       ****           ****          1      
 
