@@ -1,0 +1,4 @@
+AreaN t_ithmon_ithr_e2
+AreaS t_loransewood_s
+AreaW t_ithmon_farm_ne
+AreaE t_crownfarms_iw2
