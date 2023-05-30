@@ -8,74 +8,6 @@ GRAVEYARD
 12808 "Witcher: Headstone 2"                                                 ****     plc_wt809           ****       ****         ****         ****         33           1          0       ****           ****          1      
 12809 "Witcher: Headstone 3"                                                 ****     plc_wt810           ****       ****         ****         ****         33           1          0       ****           ****          1      
 
-JOBS - BLACKSMITH
-12816 "Witcher: Arrow"                                                       ****     plc_wt817           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12814 "Witcher: Axe, large 1"                                                ****     plc_wt815           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12840 "Witcher: Axe, large 2"                                                ****     plc_wt841           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12841 "Witcher: Axe, large 3"                                                ****     plc_wt842           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12842 "Witcher: Axe, large 4"                                                ****     plc_wt843           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12843 "Witcher: Axe, large 5"                                                ****     plc_wt844           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12887 "Witcher: Axe, small 1"                                                ****     plc_wt888           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12888 "Witcher: Axe, small 2"                                                ****     plc_wt889           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12889 "Witcher: Axe, small 3"                                                ****     plc_wt890           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12890 "Witcher: Axe, small 4"                                                ****     plc_wt891           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12891 "Witcher: Axe, small 5"                                                ****     plc_wt892           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12892 "Witcher: Axe, small 6"                                                ****     plc_wt893           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12893 "Witcher: Axe, small 7"                                                ****     plc_wt894           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12818 "Witcher: Bow"                                                         ****     plc_wt819           ****       ****         ****         ****         1            1          0       ****           ****          0      
-12815 "Witcher: Club 2"                                                      ****     plc_wt816           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12894 "Witcher: Club 3"                                                      ****     plc_wt895           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12895 "Witcher: Club 4"                                                      ****     plc_wt896           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12844 "Witcher: Club, large 1"                                               ****     plc_wt845           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12845 "Witcher: Club, large 2"                                               ****     plc_wt846           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12846 "Witcher: Club, large 3"                                               ****     plc_wt847           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12847 "Witcher: Club, large 4"                                               ****     plc_wt848           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12819 "Witcher: Crossbow"                                                    ****     plc_wt820           ****       ****         ****         ****         1            1          0       ****           ****          0      
-12820 "Witcher: Dagger"                                                      ****     plc_wt821           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12857 "Witcher: Halberd 1"                                                   ****     plc_wt858           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12859 "Witcher: Halberd 2"                                                   ****     plc_wt860           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12848 "Witcher: Hammer, large 1"                                             ****     plc_wt849           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12896 "Witcher: Hammer, small 1"                                             ****     plc_wt897           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12897 "Witcher: Hammer, small 2"                                             ****     plc_wt898           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12898 "Witcher: Hammer, small 3"                                             ****     plc_wt899           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12899 "Witcher: Hammer, small 4"                                             ****     plc_wt900           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12900 "Witcher: Hammer, small 5"                                             ****     plc_wt901           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12853 "Witcher: Long sword 1"                                                ****     plc_wt854           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12914 "Witcher: Long sword 2"                                                ****     plc_wt915           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12915 "Witcher: Long sword 3"                                                ****     plc_wt916           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12916 "Witcher: Long sword 4"                                                ****     plc_wt917           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12917 "Witcher: Long sword 5"                                                ****     plc_wt918           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12918 "Witcher: Long sword 6"                                                ****     plc_wt919           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12919 "Witcher: Long sword 7"                                                ****     plc_wt920           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12920 "Witcher: Long sword 8"                                                ****     plc_wt921           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12921 "Witcher: Long sword 9"                                                ****     plc_wt922           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12922 "Witcher: Long sword 10"                                               ****     plc_wt923           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12923 "Witcher: Long sword 11"                                               ****     plc_wt924           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12924 "Witcher: Long sword 12"                                               ****     plc_wt925           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12925 "Witcher: Long sword 13"                                               ****     plc_wt926           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12926 "Witcher: Long sword 14"                                               ****     plc_wt927           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12927 "Witcher: Long sword 15"                                               ****     plc_wt928           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12928 "Witcher: Long sword 16"                                               ****     plc_wt944           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12911 "Witcher: Pole"                                                        ****     plc_wt911           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12903 "Witcher: Shield 1"                                                    ****     plc_wt904           ****       ****         ****         ****         7            1          0       ****           ****          1      
-12904 "Witcher: Shield 2"                                                    ****     plc_wt905           ****       ****         ****         ****         7            1          0       ****           ****          1      
-12905 "Witcher: Shield 3"                                                    ****     plc_wt906           ****       ****         ****         ****         7            1          0       ****           ****          1      
-12906 "Witcher: Shield 4"                                                    ****     plc_wt907           ****       ****         ****         ****         7            1          0       ****           ****          1      
-12907 "Witcher: Shield 5"                                                    ****     plc_wt908           ****       ****         ****         ****         7            1          0       ****           ****          1      
-12821 "Witcher: Shiv"                                                        ****     plc_wt822           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12822 "Witcher: Short sword 1"                                               ****     plc_wt823           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12823 "Witcher: Short sword 2"                                               ****     plc_wt824           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12824 "Witcher: Short sword 3"                                               ****     plc_wt825           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12825 "Witcher: Short sword 4"                                               ****     plc_wt826           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12881 "Witcher: Spear 1"                                                     ****     plc_wt882           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12854 "Witcher: Staff 1"                                                     ****     plc_wt855           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12902 "Witcher: Staff 2"                                                     ****     plc_wt903           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12908 "Witcher: Staff 3"                                                     ****     plc_wt909           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12909 "Witcher: Staff 4"                                                     ****     plc_wt910           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12910 "Witcher: Staff 5"                                                     ****     plc_wt912           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12912 "Witcher: Staff 6"                                                     ****     plc_wt913           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12913 "Witcher: Staff 7"                                                     ****     plc_wt914           ****       ****         ****         ****         0            1          0       ****           ****          1      
-
 JOBS _ MAGIC & HERBS
 12790 "Witcher: Herbs, dried"                                                ****     plc_wt791           ****       ****         ****         ****         23           1          0       ****           ****          1      
 12838 "Witcher: Ingredient"                                                  ****     plc_wt839           ****       ****         ****         ****         0            1          0       ****           ****          1      
@@ -106,17 +38,6 @@ JOBS - POTION
 12880 "Witcher: Potion 22"                                                   ****     plc_wt881           ****       ****         ****         ****         21           1          0       ****           ****          1      
 
 
-
-NATURE
-
-
-TOOLS 
-12901 "Witcher: Torch"                                                       ****     plc_wt902           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12940 "Witcher: Tool, hammer"                                                ****     plc_wt940           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12855 "Witcher: Rope coil"                                                   ****     plc_wt856           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12858 "Witcher: Pitchfork"                                                   ****     plc_wt859           ****       ****         ****         ****         0            1          0       ****           ****          1      
-12944 "Witcher: Bucket"                                                      ****     plc_wt945           ****       ****         ****         ****         0            1          0       ****           ****          1            
-12782 "Witcher: Ladder 2"                                                    ****     plc_wt783           ****       ****         ****         ****         18           1          0       ****           ****          1      
 
 TREASURE
 12828 "Witcher: Gem, yellow"                                                 ****     plc_wt829           ****       ****         ****         ****         7            1          0       ****           ****          1      
