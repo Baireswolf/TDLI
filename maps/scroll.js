@@ -80,7 +80,7 @@ Game.init = function () {
     );
     
     //this.tileAtlas = Loader.getImage('tiles');
-    this.camera = new Camera(map, 1536, 768);
+    this.camera = new Camera(map, 1024, 512);
 };
 
 
